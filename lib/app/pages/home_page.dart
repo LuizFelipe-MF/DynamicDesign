@@ -28,6 +28,7 @@ class _HomePageState extends State<HomePage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
+                context.factory.buildCircularProgessIndicator(),
                 context.factory.buildButton(
                   label: 'AlertDialog',
                   onPressed:
